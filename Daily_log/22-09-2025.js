@@ -53,7 +53,3 @@ let x = (5 == 5 || 5 < 2);  // What will be the value of x?
 
 console.log(x);
 
-<<<<<<< HEAD:22-09-2025.js
-
-=======
->>>>>>> 613d5f9db3e5bff515f4dc5f26269906918a1112:Daily_log/22-09-2025.js
