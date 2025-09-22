@@ -37,7 +37,7 @@ for(const key in user){
 Object.entries(user).forEach(([key,value])=>{
 console.log(key,value);
 }
-)
+);
 
 // Ternary operator
 
@@ -52,9 +52,5 @@ console.log(discount);
 let x = (5 == 5 || 5 < 2);  // What will be the value of x?
 
 console.log(x);
-
-
-
-
 
 
