@@ -1,4 +1,4 @@
-// Day - 1
+// Day - 1 (Studied Variables, Data types, Operators, conditional statements)
 
 // const arr=[1,2,3,4,5];
 
@@ -49,11 +49,8 @@ console.log(discount);
 
 // use case : 1
 
-let x = (5 == 5 || 5 < 2);  // What will be the value of x?
+let x = (5 == 5 && 5 < 2);  // What will be the value of x?
 
-console.log(x);
+console.log(x);  // false
 
-<<<<<<< HEAD:22-09-2025.js
 
-=======
->>>>>>> 613d5f9db3e5bff515f4dc5f26269906918a1112:Daily_log/22-09-2025.js
