@@ -38,3 +38,23 @@ Object.entries(user).forEach(([key,value])=>{
 console.log(key,value);
 }
 )
+
+// Ternary operator
+
+const ismember=false;
+
+const discount= ismember?0.2:2;
+
+console.log(discount);
+
+// use case : 1
+
+let x = (5 == 5 || 5 < 2);  // What will be the value of x?
+
+console.log(x);
+
+
+
+
+
+
