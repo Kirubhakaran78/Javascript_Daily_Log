@@ -53,4 +53,7 @@ let x = (5 == 5 && 5 < 2);  // What will be the value of x?
 
 console.log(x);  // false
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7967db71d631c13f5cbf6056fa88eb010c917924
