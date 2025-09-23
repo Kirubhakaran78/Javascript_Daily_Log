@@ -1,4 +1,4 @@
-// Day 2 - 
+// Day 2 - functions(call,apply,bind,this), loops, String methods
 
 
 // continue with labled statement (Switch also same syntax)
