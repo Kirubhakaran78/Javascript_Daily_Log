@@ -139,7 +139,7 @@ separtor- character or pattern to split the stirng
 limit- maximum no of splits
 */
 let Str3="apple,banana,pineapple,watermelon";
-console.log(Str3.split(',',1));
+console.log(Str3.split(','1));
 
 // repeat() - method returns the string with a number of copies of a string. return the new string
 console.log(Str3.repeat(3));
