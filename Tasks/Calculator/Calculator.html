@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator_div">
+    <h3 class="header">Calculator</h3>
+    <input id="result" class="input_bx" type="text"/>
+
+    <div class="btn_div">
+    <button onclick="addValue('%')" class="num_btn">%</button>
+    <button onclick="ClearAllFn()" class="num_btn">C</button>
+    <button onclick="clearFn()" class="num_btn">⌫</button>
+    <button onclick="addValue('/')" class="num_btn">/</button>
+    
+    <button onclick="addValue('7')" class="num_btn">7</button>
+    <button onclick="addValue('8')" class="num_btn">8</button>
+    <button onclick="addValue('9')" class="num_btn">9</button>
+    <button onclick="addValue('*')" class="num_btn">*</button>
+    
+    <button onclick="addValue('4')" class="num_btn">4</button>
+    <button onclick="addValue('5')" class="num_btn">5</button>
+    <button onclick="addValue('6')" class="num_btn">6</button>
+    <button onclick="addValue('-')" class="num_btn">-</button>
+   
+    <button onclick="addValue('1')" class="num_btn">1</button>
+    <button onclick="addValue('2')" class="num_btn">2</button>
+    <button onclick="addValue('3')" class="num_btn">3</button>
+    <button onclick="addValue('+')" class="num_btn">+</button>  
+    
+    <button onclick="addValue('0')" class="num_btn">0</button>
+    <button onclick="addValue('.')" class="num_btn">.</button>
+    <button onclick="evaluateResult()" class="num_btn">=</button>
+    </div>
+    </div>
+       
+
+    <script src="script.js"></script>
+</body>
+</html>
