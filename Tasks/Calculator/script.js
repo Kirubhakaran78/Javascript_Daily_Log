@@ -27,7 +27,7 @@ const key=event.key; //like if press 5 then key is "5"
 
 const allowed='0987654321/.+-*%';
 
-const specialWords = ['Enter','Escape','Backspace','ArrowRight','ArrowLeft'];
+const specialWords = ['Enter','Delete','Escape','Backspace','ArrowRight','ArrowLeft'];
 
 if(!allowed.includes(key)&&(!specialWords.includes(key))){
     event.preventDefault();
